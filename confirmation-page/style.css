@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Orbitron", sans-serif;
+    background-image: url(/choosing-char/images/Rectangle\ 1\ copy\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(7, 4, 15, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 100%;
+}
+/* body::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(35, 18, 18, 0.4); /* Change this to your desired color and opacity 
+    z-index: -1;
+} */
+#container{
+    width: 90%;
+    height: 100%;
+    margin: 1rem auto;
+}
+
+/* head style */
+
+#container #container-head #p1{
+    color: rgba(12, 180, 142, 1);
+    font-size: 13px;
+    line-height: 100%;
+}
+#container #container-head h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+#container #container-head #p2{
+    margin: 10px 35px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+#container #container-head #p2 span{
+    background-color:  rgba(12, 180, 142, 1) ;
+    padding: 0 5px 0 0;
+    /* border-radius: 0px 10px 0 0; */
+}
+
+/* Container-content style */
+#container-content{
+    width: 100%;
+    margin: 70px auto;
+    height: 100vh;  
+}
+#container-content #content{
+    height: 100%; 
+      
+   color: white;
+   padding: 20px;
+   width: 100%;
+   
+   position: relative;
+    background-image: url("/rewards-recived/images/Vector\ 47.png");
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+ #container-content #content #loading-section{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: 0 auto;
+    position: absolute;
+    top: -0.6rem;
+    left: 10rem;
+    
+ }
+ #container-content #content #loading-section #loading-text{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+ }
+ #container-content #content #loading-section #loading-text h2{
+    font-weight: 400;
+    font-size: 26.31;
+    letter-spacing: 21%;
+
+ }
+ #container-content #content #loading-section #loading-text p{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.61);
+    position: relative;
+    top: 10px;
+ }
+  #container-content #content #loading-section #loading-img{
+    height: 5px;
+    width: 100%;
+    background-image: url(/choosing-char/images/Rectangle\ 41.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+  }
+   #container-content #content #loading-section #loading-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow:0 2px 8px rgba(12, 180, 142, 1);
+    width: 100%;
+   }
+#analyze{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    align-items: center;
+    gap: 5px;
+}
+#analyze p{
+    font-weight: 400;
+    font-size: 11.13px;
+    line-height: 100%;
+    letter-spacing: 21%;
+    text-transform: uppercase;
+    color: rgba(12, 180, 142, 1);
+}
+
+/* image-container style */
+#container-images {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+#container-images #avatar-image{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/confirmation-page/images/marketplace.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#container-images #avatar-image #background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+}
+#container-images #avatar-image #background img{
+    width: 80%;
+    height: 100%;
+}
+
+#tools{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   
+    gap: 50px;
+    
+}
+#tools .background{
+    width: 25%;
+}
+ .background{
+    background-image: url(/confirmation-page/images/Group\ 378.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 25px 0 10px 0;
+   position: relative;
+}
+.background>img{
+    width: 40%;
+    height: 60%;
+
+}
+/* .background p{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 60px;
+} */
+
