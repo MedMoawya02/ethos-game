@@ -57,7 +57,7 @@ body{
 #container-content{
     width: 100%;
     margin: 70px auto;
-    height: 100vh;  
+      
 }
 #container-content #content{
     height: 100%; 
@@ -75,11 +75,11 @@ body{
  #container-content #content #loading-section{
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
     position: absolute;
-    top: -0.6rem;
-    left: 10rem;
+    top: -2rem;
+    left: 12rem;
     
  }
  #container-content #content #loading-section #loading-text{
@@ -162,13 +162,69 @@ body{
     height: 100%;
 }
 
+
 #tools{
+    width: 60%;
+    
+}
+#tools #tools-images{
+    display: flex;
+    justify-content: center;
+    
+}
+#tools #tools-images .background{
+ 
+    width: 40%;
+   background-image: url(/confirmation-page/images/Group\ 378.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+#tools #tools-images .background img{
+    width: 80px;
+    height: 80%;
+    margin-top: 10px;
+    
+}
+#tools #tools-images .background a{
+    color: white;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+}
+#buttons{
+    width: 60%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+#buttons button{
+    width: 109px;
+    height: 42px;
+    text-transform: uppercase;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+}
+#buttons .btn-revanche{
+    background-color: rgba(255, 49, 49, 0.28);
+}
+#buttons .btn-start{
+    background-color: rgba(49, 255, 119, 0.28);
+}
+/* #tools{
     width: 60%;
     height: 100%;
     display: flex;
     justify-content: center;
    
-    gap: 50px;
+    gap: 20px;
     
 }
 #tools .background{
@@ -191,7 +247,7 @@ body{
     width: 40%;
     height: 60%;
 
-}
+} */
 /* .background p{
     position: absolute;
     bottom: 0.5rem;
