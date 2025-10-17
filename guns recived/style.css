@@ -255,6 +255,10 @@ body{
     padding: 5px 10px;
     background-color:  rgba(83, 125, 216, 1);
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
     border: none;
+}
+#content-information #information button a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+
 }

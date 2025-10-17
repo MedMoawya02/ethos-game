@@ -296,6 +296,12 @@ body{
     align-items: center;
     justify-content: space-around;
 }
+#footer #code a{
+    width: 17px;
+    height: 17px;
+    color: white;
+    font-size: smaller;
+}
 #footer #code h5{
     font-size: 13px;
     font-weight: bolder;
